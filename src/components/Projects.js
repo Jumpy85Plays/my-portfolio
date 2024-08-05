@@ -43,7 +43,7 @@ const Projects = () => {
   };
 
   return (
-    <Container>
+    <Container className="project-container">
       <Row>
         {projectData.map((project) => (
           <Col md={4} key={project.id} className="mb-4">
