@@ -6,6 +6,8 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import './custom.css'; // Correct path to Custom.css
+import './styles/Home.css'; // Correct path to Home.css
 
 
 function App() {

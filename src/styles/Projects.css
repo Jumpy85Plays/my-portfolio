@@ -1,0 +1,23 @@
+/* src/styles/Projects.css */
+
+.project-card {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .preview-image {
+    max-width: 300px; /* Resize preview image */
+  }
+  
+  .full-image {
+    width: 100%;
+    max-height: 500px; /* Restrict full image height */
+    object-fit: contain; /* Preserve aspect ratio */
+  }
+  

@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://your-username.github.io/my-portfolio",
+  "homepage": "https://jumpy85plays.github.io/my-portfolio/",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "emailjs-com": "^3.2.0",
