@@ -12,7 +12,8 @@
   }
   
   .preview-image {
-    max-width: 300px; /* Resize preview image */
+    max-height: 200px; /* Set a fixed height for preview images */
+    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
   }
   
   .full-image {

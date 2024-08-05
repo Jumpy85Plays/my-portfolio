@@ -5,7 +5,7 @@ import { Container, Row, Col, Button, Modal } from 'react-bootstrap';
 import project1 from '../images/project1-preview.png';
 import project2 from '../images/project2-preview.png';
 import project3 from '../images/project3-preview.png';
-import './Projects.css'; // Import the CSS file for styling
+import '../styles/Projects.css'; // Adjusted import path
 
 const projectData = [
   {
