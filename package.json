@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://Jumpy85Plays.github.io/project-portfolio",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
@@ -40,5 +41,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "."
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
