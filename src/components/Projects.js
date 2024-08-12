@@ -10,21 +10,21 @@ import '../styles/Projects.css'; // Adjusted import path
 const projectData = [
   {
     id: 1,
-    title: 'Project 1',
+    title: 'My Favorite Movies',
     image: project1,
-    description: 'Description of Project 1.'
+    description: 'In this project, our professor tasked us with making a basic "Favorite Movies" website that uses html, css, and bootstrap'
   },
   {
     id: 2,
-    title: 'Project 2',
+    title: 'My Favorite Artists',
     image: project2,
-    description: 'Description of Project 2.'
+    description: 'In this project, our professor tasked us with making a website that is interconnected with each part that also links the user to the songs of the artists that we featured in the website.'
   },
   {
     id: 3,
-    title: 'Project 3',
+    title: 'Bank Loan Application Form',
     image: project3,
-    description: 'Description of Project 3.'
+    description: 'In this project, our professor tasked us with making a basic "Bank Loan Application Form" that is essentially fully working just without the systems that it should be connected to along with a "Terms and Conditions".'
   }
 ];
 

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -37,9 +39,16 @@ const Contact = () => {
   };
 
   return (
-    <Container className="mt-4">
-      <h2>Contact Me</h2>
-      <Form onSubmit={handleSubmit}>
+    <Container className="mt-4 contact-container">
+      <h1>Contact Me</h1>
+      <p>Here’s how you can reach me.</p>
+
+      {/* Facebook Button */}
+      <a href="https://web.facebook.com/gabriel.aguilar.796774" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faFacebook} size="2x" />
+      </a>
+
+      <Form onSubmit={handleSubmit} className="mt-3">
         <Form.Group controlId="formName">
           <Form.Label>Name</Form.Label>
           <Form.Control 
@@ -51,6 +60,7 @@ const Contact = () => {
             required 
           />
         </Form.Group>
+
         <Form.Group controlId="formEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control 
@@ -62,6 +72,7 @@ const Contact = () => {
             required 
           />
         </Form.Group>
+
         <Form.Group controlId="formMessage">
           <Form.Label>Message</Form.Label>
           <Form.Control 
@@ -74,6 +85,7 @@ const Contact = () => {
             required 
           />
         </Form.Group>
+
         <Button variant="primary" type="submit">
           Submit
         </Button>
